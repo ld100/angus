@@ -13,13 +13,3 @@ services:
     environment:
       NODE_ENV: development
     # command: 'npm start'
-
-  # express: #name of the second service
-  #   build: express-server # specify the directory of the Dockerfile
-  #   ports:
-  #     - "3000:3000" #specify ports forewarding
-  #
-  # database: # name of the third service
-  #   image: mongo # specify image to build container from
-  #   ports:
-  #     - "27017:27017" # specify port forewarding
