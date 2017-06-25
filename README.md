@@ -8,7 +8,7 @@ Run `docker-compose up` for a dev server. Navigate to `http://localhost:4200/`. 
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+Run `docker-compose run angular ng generate component component-name` to generate a new component. You can also use `docker-compose run angular ng generate directive|pipe|service|class|module`.
 
 ## Build
 
